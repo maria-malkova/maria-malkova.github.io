@@ -1,0 +1,112 @@
+.education {
+    &__area {
+        width: 100%;
+        max-width: 1280px;
+        padding: 0 0 10px 660px;
+        color: var(--text-color);
+        background-color: var(--bkg-color);
+    }
+
+    &__chapter {
+        margin-bottom: 44px;
+        display: flex;
+        border-bottom: var(--border);
+        width: 252px;
+        padding-bottom: 12px;
+        svg {
+            fill: var(--black-blue);
+            opacity: 1;
+        }
+    }
+
+    &__name {
+        margin-left: 15px;
+        font-weight: 700;
+        font-size: px-to-em(26);
+        line-height: lh-to-per(30, 26);
+    }
+
+    &__list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    &__inst {
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-size: px-to-em(18);
+        line-height: lh-to-per(21, 18);
+    }
+
+    &__text {
+        margin-bottom: 52px;
+        font-weight: 400;
+        font-size: px-to-em(16);
+        line-height: lh-to-per(25, 16);
+        text-indent: 30px;
+        text-align: justify;
+
+    }
+
+    @media screen and (max-width: 1201px) {
+        &__area {
+            padding: 0 60px 12px 600px;
+        }
+    }
+
+    @media screen and (max-width: 991px) {
+        &__area {
+            padding: 0 40px 10px 460px;
+        }
+
+        &__name {
+            font-size: px-to-em(22);
+            line-height: lh-to-per(25, 22);
+        }
+
+        &__inst {
+            font-size: px-to-em(16);
+            line-height: lh-to-per(21, 16);
+        }
+    
+        &__text {
+            margin-bottom: 42px;
+            font-size: px-to-em(14);
+            line-height: lh-to-per(25, 14);
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        &__area {
+            padding: 0 20px 10px 340px;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        &__area {
+            padding: 0 20px 10px 20px;
+        }
+
+        &__chapter {
+            margin-bottom: 34px;
+        }
+
+        &__name {
+            font-size: px-to-em(18);
+            line-height: lh-to-per(21, 18);
+        }
+
+        &__inst {
+            font-size: px-to-em(14);
+            line-height: lh-to-per(16, 14);
+        }
+    
+        &__text {
+            margin-bottom: 32px;
+            font-size: px-to-em(12);
+            line-height: lh-to-per(16, 12);
+        }
+    }
+  
+}

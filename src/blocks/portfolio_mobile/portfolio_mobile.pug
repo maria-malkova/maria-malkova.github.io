@@ -1,0 +1,33 @@
+mixin portfolio_mobile(modifier)
+  .portfolio_mobile&attributes(attributes)
+    .portfolio_mobile__chapter
+      include img/portfolio_mobile.svg
+      h2.portfolio_mobile__title Портфолио
+    ul.portfolio_mobile__list
+      li.portfolio_mobile__card
+        img(src='img/portfolio_penguin.jpg' alt='Пингвин').portfolio_mobile__photo
+        .portfolio_mobile__content
+          h3.portfolio_mobile__name Название работы
+          a.portfolio_mobile__link(href='#') Код на GitHub
+          a.portfolio_mobile__link(href='#') Страница 
+      li.portfolio_mobile__card
+        .portfolio_mobile__content
+          h3.portfolio_mobile__name Название работы
+          a.portfolio_mobile__link(href='#') Код на GitHub
+          a.portfolio_mobile__link(href='#') Страница 
+        img(src='img/portfolio_lion.png' alt='Лев').portfolio_mobile__photo
+      li.portfolio_mobile__card
+        img(src='img/portfolio_sparrow.jpg' alt='Воробей').portfolio_mobile__photo
+        .portfolio_mobile__content
+          h3.portfolio_mobile__name Название работы
+          a.portfolio_mobile__link(href='#') Код на GitHub
+          a.portfolio_mobile__link(href='#') Страница 
+      li.portfolio_mobile__card
+        .portfolio_mobile__content
+          h3.portfolio_mobile__name Название работы
+          a.portfolio_mobile__link(href='#') Код на GitHub
+          a.portfolio_mobile__link(href='#') Страница 
+        img(src='img/portfolio_panda.jpg' alt='Панда').portfolio_mobile__photo
+
+
+      

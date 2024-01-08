@@ -1,0 +1,110 @@
+@import 'mixins';
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text&family=Inter:wght@400;700&family=Roboto:wght@100;300;400;700&display=swap');
+
+/* Plugins */
+
+
+/*theme */
+
+body {
+  --text-color: #000000;
+  --bkg-color:  white; 
+  --bkg-color-portfolio: #D9D9D9;
+  --bkg-color-mobile: white;
+  --text-color-portfolio: #000000;
+  --text-color-link: #FFFFFF;
+  --bkg-color-link: #5A5A5A;
+  --bkg-color-mbutton: #2F3133;
+  --text-color-mbutton: #FFFFFF;
+  --bkg-skills: 
+    radial-gradient(closest-side, white 90%, transparent 80% 100%),
+    conic-gradient(#56DCFF 75%, transparent 0%, rgba(31, 34, 31, 0.45) 15% );
+  --bkg-skills2: 
+    radial-gradient(closest-side, white 90%, transparent 80% 100%),
+    conic-gradient(#56DCFF 85%, transparent 0%, rgba(31, 34, 31, 0.45) 15% );
+  --bkg-skills3: 
+    radial-gradient(closest-side, white 90%, transparent 80% 100%),
+    conic-gradient(#56DCFF 45%, transparent 0%, rgba(31, 34, 31, 0.45) 15% );
+  --bkg-skills4: 
+    radial-gradient(closest-side, white 90%, transparent 80% 100%),
+    conic-gradient(#56DCFF 35%, transparent 0%, rgba(31, 34, 31, 0.45) 15% ); 
+  --black-blue: black;
+  --black-white: black;
+  --blue-white: #56DCFF;
+  --border: 1px solid #000000;
+
+}
+
+body.dark-theme {
+  --text-color: #D9D9D9;
+  --bkg-color: #2A2D36;
+  --bkg-color-portfolio: #E5DFD3;
+  --bkg-color-mobile: #2A2D36;
+  --text-color-portfolio: #394244;
+  --text-color-link: #E5DFD3;
+  --bkg-color-link: #2A2D36;
+  --bkg-color-mbutton: #D9D9D9;
+  --text-color-mbutton: #000000;
+  --bkg-skills: 
+    radial-gradient(closest-side, #2A2D36 90%, transparent 80% 100%),
+    conic-gradient(#56DCFF 75%, transparent 0%, white 15% ); 
+  --bkg-skills2: 
+    radial-gradient(closest-side, #2A2D36 90%, transparent 80% 100%),
+    conic-gradient(#56DCFF 85%, transparent 0%, white 15% ); 
+  --bkg-skills3: 
+    radial-gradient(closest-side, #2A2D36 90%, transparent 80% 100%),
+    conic-gradient(#56DCFF 45%, transparent 0%, white 15% ); 
+  --bkg-skills4: 
+    radial-gradient(closest-side, #2A2D36 90%, transparent 80% 100%),
+    conic-gradient(#56DCFF 35%, transparent 0%, white 15% ); 
+
+
+  --black-blue: #56DCFF;
+  --black-white: white;
+  --blue-white: white;
+  --border: 1px solid #D9D9D9;
+
+}
+
+
+
+
+
+
+
+
+
+/* Blocks */
+
+body, ul, ol, li {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+button, input {
+  border: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+@import './src/blocks/Header/Header';
+@import './src/blocks/portfolio/portfolio';
+@import './src/blocks/personal/personal';
+@import './src/blocks/skills/skills';
+@import './src/blocks/education/education';
+@import './src/blocks/hobby/hobby';
+@import './src/blocks/portfolio_mobile/portfolio_mobile';

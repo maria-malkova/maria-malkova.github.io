@@ -1,0 +1,32 @@
+@use "sass:math";
+/* Стандартный transition для hover-анимаций */
+
+@mixin transition {
+  transition: 0.3s cubic-bezier(0.250, 0.100, 0.250, 1.000);
+}
+
+
+/* Миксин замены цвета placeholder у input.
+Нужно добавить в стилях элемента конструкцию вида @include placeholder(#000); */
+@mixin placeholder($color, $opacity: 1) {
+  &::-webkit-input-placeholder {color:$color; opacity: $opacity}
+  &::-moz-placeholder          {color:$color; opacity: $opacity}
+  &:-ms-input-placeholder      {color:$color; opacity: $opacity}
+}
+
+//flex-миксин  @include 
+@mixin flex-dir($dir:column, $jc:center, $ai:center) {
+  display: flex;
+  flex-direction: $dir;
+  justify-content: $jc;
+  align-items: $ai;
+}
+
+//Перевод пикселей в емы
+@function px-to-em($px, $context: 16) {
+  @return math.div($px, $context)+em;
+}
+
+@function lh-to-per($lh, $fs) {
+  @return math.div($lh, $fs);
+}

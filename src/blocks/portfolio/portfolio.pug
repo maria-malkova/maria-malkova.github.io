@@ -1,0 +1,29 @@
+mixin portfolio(cl='')
+  .portfolio(class=cl ? `${cl}__portfolio` : '')
+      h1.portfolio__title Портфолио
+      img(src='img/portfolio_arrow.png' alt='Стрелочка вверх').portfolio__top
+      ul.portfolio__list
+        li.portfolio__card
+          h2.portfolio__name Название
+          img(src='img/portfolio_penguin.jpg' alt='Пингвин').portfolio__photo
+          a.portfolio__link(href='#') Посмотреть код в GitHub
+          a.portfolio__link(href='#') Посмотреть страницу 
+        li.portfolio__card
+          h2.portfolio__name Название
+          img(src='img/portfolio_lion.png' alt='Лев').portfolio__photo
+          a.portfolio__link(href='#') Посмотреть код в GitHub
+          a.portfolio__link(href='/название папки/кофе/index.html' target='_blank') Посмотреть страницу 
+        li.portfolio__card
+          h2.portfolio__name Название
+          img(src='img/portfolio_sparrow.jpg' alt='Воробей').portfolio__photo
+          a.portfolio__link(href='#') Посмотреть код в GitHub
+          a.portfolio__link(href='#') Посмотреть страницу 
+        li.portfolio__card
+          h2.portfolio__name Название
+          img(src='img/portfolio_panda.jpg' alt='Панда').portfolio__photo
+          a.portfolio__link(href='#') Посмотреть код в GitHub
+          a.portfolio__link(href='#') Посмотреть страницу   
+      img(src='img/portfolio_arrow.png' alt='Стрелочка вниз').portfolio__bottom
+
+// стрелочки модификаторами
+
