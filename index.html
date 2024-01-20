@@ -20,8 +20,8 @@
               <li class="portfolio__card">
                 <h2 class="portfolio__name">Название</h2><img class="portfolio__photo" src="img/portfolio_penguin.jpg" alt="Пингвин"><a class="portfolio__link" href="#">Посмотреть код в GitHub</a><a class="portfolio__link" href="#">Посмотреть страницу </a>
               </li>
-              <li class="portfolio__card">
-                <h2 class="portfolio__name">Название</h2><img class="portfolio__photo" src="img/portfolio_lion.png" alt="Лев"><a class="portfolio__link" href="#">Посмотреть код в GitHub</a><a class="portfolio__link" href="/название папки/кофе/index.html" target="_blank">Посмотреть страницу </a>
+              <li class="portfolio__card"><a class="portfolio__name" href="../works/kofe/index.html" target="_blank">Сайт "Кофе"</a>
+                <!--img(src='img/portfolio_kofe.png' alt='Сайт Кофе').portfolio__photo--><a class="portfolio__link" href="../works/kofe/index.html" target="_blank"><img class="portfolio__photo" src="img/portfolio_kofe.png" alt="Сайт Кофе"></a><a class="portfolio__link" href="https://github.com/maria-malkova/kofe" target="_blank">Посмотреть код в GitHub</a><a class="portfolio__link" href="../works/kofe/index.html" target="_blank">Посмотреть страницу </a>
               </li>
               <li class="portfolio__card">
                 <h2 class="portfolio__name">Название</h2><img class="portfolio__photo" src="img/portfolio_sparrow.jpg" alt="Воробей"><a class="portfolio__link" href="#">Посмотреть код в GitHub</a><a class="portfolio__link" href="#">Посмотреть страницу </a>
@@ -63,7 +63,8 @@
             </div>
           </nav>
           <div class="header__resume">
-            <div class="header__symbol" data-title="Изменить тему"><svg width="27" height="27" viewBox="0 0 27 27" xmlns="http://www.w3.org/2000/svg">
+            <!--.header__symbol(data-title = 'Изменить тему'): include img/kwork.svg-->
+            <div class="header__symbol"><svg width="27" height="27" viewBox="0 0 27 27" xmlns="http://www.w3.org/2000/svg">
 <path d="M0 21V18H3V21H0ZM0 9V6H3V9H0ZM6 27V24H9V27H6ZM6 3V0H9V3H6ZM18 27V24H21V27H18ZM18 3V0H21V3H18ZM24 21V18H27V21H24ZM24 9V6H27V9H24ZM9 21C8.175 21 7.4685 20.706 6.8805 20.118C6.2925 19.53 5.999 18.824 6 18V9C6 8.175 6.294 7.4685 6.882 6.8805C7.47 6.2925 8.176 5.999 9 6H18C18.825 6 19.5315 6.294 20.1195 6.882C20.7075 7.47 21.001 8.176 21 9V18C21 18.825 20.706 19.5315 20.118 20.1195C19.53 20.7075 18.824 21.001 18 21H9ZM9 18H18V9H9V18Z"/>
 </svg>
 
@@ -72,7 +73,7 @@
 <path d="M8 0C3.592 0 0 3.592 0 8C0 12.408 3.592 16 8 16C12.408 16 16 12.408 16 8C16 3.592 12.408 0 8 0ZM7.2 6.4V3.2H8.8V6.4H11.2L8 9.6L4.8 6.4H7.2ZM12 12H4V10.4H12V12Z"/>
 </svg>
 </a>
-          </div>
+          </div><a class="header__proverka" href="../works/kofe/index.html">проверка1</a><a class="header__proverka" href="../works/2.jpg">проверка2</a><a class="header__proverka" href="/3.jpg">проверка3</a>
         </div>
       </header>
       <section class="personal">
@@ -133,7 +134,7 @@
 <path d="M6 0C2.694 0 0 2.694 0 6C0 9.306 2.694 12 6 12C9.306 12 12 9.306 12 6C12 2.694 9.306 0 6 0ZM5.4 4.8V2.4H6.6V4.8H8.4L6 7.2L3.6 4.8H5.4ZM9 9H3V7.8H9V9Z" fill="white"/>
 </svg>
 </a>
-          <div class="personal__msymbol" data-title="Изменить тему"><svg width="27" height="27" viewBox="0 0 27 27" xmlns="http://www.w3.org/2000/svg">
+          <div class="personal__msymbol"><svg width="27" height="27" viewBox="0 0 27 27" xmlns="http://www.w3.org/2000/svg">
 <path d="M0 21V18H3V21H0ZM0 9V6H3V9H0ZM6 27V24H9V27H6ZM6 3V0H9V3H6ZM18 27V24H21V27H18ZM18 3V0H21V3H18ZM24 21V18H27V21H24ZM24 9V6H27V9H24ZM9 21C8.175 21 7.4685 20.706 6.8805 20.118C6.2925 19.53 5.999 18.824 6 18V9C6 8.175 6.294 7.4685 6.882 6.8805C7.47 6.2925 8.176 5.999 9 6H18C18.825 6 19.5315 6.294 20.1195 6.882C20.7075 7.47 21.001 8.176 21 9V18C21 18.825 20.706 19.5315 20.118 20.1195C19.53 20.7075 18.824 21.001 18 21H9ZM9 18H18V9H9V18Z"/>
 </svg>
 
@@ -210,7 +211,7 @@
           <ul class="education__list">
             <li class="education__item">
               <p class="education__inst">Гильдия Фронтов (2022 - наст.время)</p>
-              <p class="education__text">В команде опытных верстальщиков проходит изучение на практике технологий веб-разработки, HTML и CSS, основы JS. Создание семантической разметки по макету из Figma. Адаптивная вёрстка сайта, подключение векторных изображений и нестандартных шрифтов. Использование селекторов и псевдоэлементов.</p>
+              <p class="education__text">В команде ___ верстальщиков под руководством опытных фронтендеров проходит изучение на практике технологий веб-разработки, HTML и CSS, элементов JS. Создание семантической разметки по макету из Figma. Адаптивная вёрстка сайта, подключение векторных изображений и нестандартных шрифтов. Использование селекторов и псевдоэлементов.</p>
             </li>
             <li class="education__item">
               <p class="education__inst">HTML Academy (2022)</p>
@@ -433,7 +434,7 @@ l57 29 194 -34 c407 -72 617 -140 788 -256 116 -78 259 -251 296 -356 14 -38
 </g>
 </svg>
 
-              <p class="hobby__text">Шерстяной эгоист</p>
+              <p class="hobby__text">Шерстяная дракошка</p>
             </li>
             <li class="hobby__item"><?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
@@ -619,9 +620,8 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
             </div>
           </li>
           <li class="portfolio_mobile__card">
-            <div class="portfolio_mobile__content">
-              <h3 class="portfolio_mobile__name">Название работы</h3><a class="portfolio_mobile__link" href="#">Код на GitHub</a><a class="portfolio_mobile__link" href="#">Страница </a>
-            </div><img class="portfolio_mobile__photo" src="img/portfolio_lion.png" alt="Лев">
+            <div class="portfolio_mobile__content"><a class="portfolio_mobile__name" href="../works/kofe/index.html" target="_blank">Сайт "Кофе"</a><a class="portfolio_mobile__link" href="https://github.com/maria-malkova/kofe" target="_blank">Код на GitHub</a><a class="portfolio_mobile__link" href="../works/kofe/index.html" target="_blank">Страница </a></div>
+            <!--img(src='img/portfolio_kofe.png' alt='Сайт Кофе').portfolio_mobile__photo--><a class="portfolio_mobile__link" href="../works/kofe/index.html" target="_blank"><img class="portfolio_mobile__photo" src="img/portfolio_kofe.png" alt="Сайт Кофе"></a>
           </li>
           <li class="portfolio_mobile__card"><img class="portfolio_mobile__photo" src="img/portfolio_sparrow.jpg" alt="Воробей">
             <div class="portfolio_mobile__content">
