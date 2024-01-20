@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>Hello</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <meta name="format-detection" content="telephone=no"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  </head>
+  <body>
+      <header class="header">
+        <div class="header__area">
+          <div class="header__picture">
+            <div class="header__hamburger">
+              <div class="header__hamburger-box">
+                <div class="header__hamburger-inner"></div>
+              </div>
+            </div><img class="header__logo" src="img/logo.svg" alt="Логотип"><img class="header__mail" src="img/mail.svg" alt="Почта">
+          </div>
+          <div class="header__candy">
+            <ul class="header__menu"> 
+              <li class="header__item"><a class="header__link" href="#">Кофе оптом</a></li>
+              <li class="header__item"><a class="header__link" href="#">White Label</a></li>
+              <li class="header__item"><a class="header__link" href="#">Бесплатная кофемашина</a></li>
+            </ul>
+              <div class="contact header__contact"> <a class="contact__tel" href="tel:+78126034911">+7 (812) 603 49 11 </a>
+                <div class="contact__social">
+                  <div class="contact__icon"><svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_182_118)">
+<path d="M16.8475 22.6505L16.5167 27.3039C16.99 27.3039 17.195 27.1005 17.4408 26.8564L19.66 24.7355L24.2583 28.103C25.1017 28.573 25.6958 28.3255 25.9233 27.3272L28.9417 13.1839L28.9425 13.183C29.21 11.9364 28.4917 11.4489 27.67 11.7547L9.92833 18.5472C8.7175 19.0172 8.73583 19.6922 9.7225 19.998L14.2583 21.4089L24.7942 14.8164C25.29 14.488 25.7408 14.6697 25.37 14.998L16.8475 22.6505Z"/>
+</g>
+<defs>
+<clipPath id="clip0_182_118">
+<rect width="20" height="20" transform="translate(9 10)"/>
+</clipPath>
+</defs>
+</svg>
+
+                  </div>
+                  <div class="contact__icon"><svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_182_122)">
+<path d="M20.0033 14.8652C17.1674 14.8652 14.8716 17.1636 14.8716 19.9969C14.8716 22.8327 17.1699 25.1286 20.0033 25.1286C22.8391 25.1286 25.1349 22.8302 25.1349 19.9969C25.1349 17.1611 22.8366 14.8652 20.0033 14.8652ZM20.0033 23.3277C18.1624 23.3277 16.6724 21.8369 16.6724 19.9969C16.6724 18.1569 18.1633 16.6661 20.0033 16.6661C21.8433 16.6661 23.3341 18.1569 23.3341 19.9969C23.3349 21.8369 21.8441 23.3277 20.0033 23.3277Z"/>
+<path d="M24.1233 10.0638C22.2833 9.97797 17.7258 9.98213 15.8841 10.0638C14.2658 10.1396 12.8383 10.5305 11.6875 11.6813C9.76414 13.6046 10.01 16.1963 10.01 19.9971C10.01 23.8871 9.79331 26.4188 11.6875 28.313C13.6183 30.243 16.2475 29.9905 20.0033 29.9905C23.8566 29.9905 25.1866 29.993 26.5491 29.4655C28.4016 28.7463 29.8 27.0905 29.9366 24.1163C30.0233 22.2755 30.0183 17.7188 29.9366 15.8771C29.7716 12.3663 27.8875 10.2371 24.1233 10.0638ZM27.0358 27.0405C25.775 28.3013 24.0258 28.1888 19.9791 28.1888C15.8125 28.1888 14.1416 28.2505 12.9225 27.028C11.5183 25.6305 11.7725 23.3863 11.7725 19.9838C11.7725 15.3796 11.3 12.0638 15.9208 11.8271C16.9825 11.7896 17.295 11.7771 19.9675 11.7771L20.005 11.8021C24.4458 11.8021 27.93 11.3371 28.1391 15.9571C28.1866 17.0113 28.1975 17.328 28.1975 19.9963C28.1966 24.1146 28.275 25.7955 27.0358 27.0405Z"/>
+<path d="M25.3383 15.8622C26.0006 15.8622 26.5375 15.3253 26.5375 14.663C26.5375 14.0008 26.0006 13.4639 25.3383 13.4639C24.676 13.4639 24.1392 14.0008 24.1392 14.663C24.1392 15.3253 24.676 15.8622 25.3383 15.8622Z"/>
+</g>
+<defs>
+<clipPath id="clip0_182_122">
+<rect width="20" height="20" transform="translate(10 10)"/>
+</clipPath>
+</defs>
+</svg>
+
+                  </div>
+                  <div class="contact__icon"><svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_182_128)">
+<path d="M26.5958 20.857C26.2725 20.4487 26.365 20.267 26.5958 19.902C26.6 19.8978 29.2692 16.2095 29.5442 14.9587L29.5458 14.9578C29.6825 14.502 29.5458 14.167 28.885 14.167H26.6983C26.1417 14.167 25.885 14.4545 25.7475 14.7762C25.7475 14.7762 24.6342 17.4412 23.0592 19.1687C22.5508 19.6678 22.3158 19.8278 22.0383 19.8278C21.9017 19.8278 21.6892 19.6678 21.6892 19.212V14.9578C21.6892 14.4112 21.5333 14.167 21.0725 14.167H17.6342C17.285 14.167 17.0775 14.422 17.0775 14.6595C17.0775 15.1778 17.865 15.297 17.9467 16.7553V19.9195C17.9467 20.6128 17.8208 20.7403 17.5417 20.7403C16.7983 20.7403 14.9942 18.0645 13.925 15.002C13.7092 14.4078 13.4983 14.1678 12.9375 14.1678H10.75C10.1258 14.1678 10 14.4553 10 14.777C10 15.3453 10.7433 18.1712 13.4567 21.9045C15.265 24.4528 17.8117 25.8337 20.1283 25.8337C21.5208 25.8337 21.6908 25.527 21.6908 24.9995C21.6908 22.5645 21.565 22.3345 22.2625 22.3345C22.5858 22.3345 23.1425 22.4945 24.4425 23.7237C25.9283 25.1812 26.1725 25.8337 27.0042 25.8337H29.1908C29.8142 25.8337 30.13 25.527 29.9483 24.922C29.5325 23.6495 26.7225 21.032 26.5958 20.857Z"/>
+</g>
+<defs>
+<clipPath id="clip0_182_128">
+<rect width="20" height="20" transform="translate(10 10)"/>
+</clipPath>
+</defs>
+</svg>
+
+                  </div>
+                </div>
+                <ul class="contact__list">
+                  <li class="contact__item"> <a class="contact__mail" href="mailto:info@pcmonline.ru"> info@pcmonline.ru</a></li>
+                  <li class="contact__item"> 
+                    <p class="contact__address">Санкт-Петербург, наб. Обводного канала д. 24</p>
+                  </li>
+                  <li class="contact__item"> <a class="contact__link" href="#">Смотреть на карте</a></li>
+                </ul>
+              </div>
+          </div>
+          <div class="header__connect"><a class="header__tel" href="tel:+78126034911">+7 812 603 49 11</a>
+            <button class="header__button" type="button">Оставить заявку</button>
+          </div>
+        </div>
+      </header>
+      <section class="salute">
+        <div class="salute__area"> 
+          <div class="salute__info"> 
+            <h1 class="salute__title">Закупайте кофе оптом с&nbsp;доставкой по всей России</h1>
+            <p class="salute__subtitles"><span class="salute__subtitle">Сначала пробуйте</span>-<span class="salute__subtitle">потом закупайте</span></p>
+            <p class="salute__text">Отправим бесплатный пробник кофе — на выбор более 30 сортов свежей обжарки для фильтра и эспрессо.</p>
+          </div><img class="salute__picture" src="img/salute.jpg" alt="Главное видео">
+        </div>
+      </section>
+      <section class="form">
+        <div class="form__area"><img class="form__image" src="img/form_pack.png" alt="Пачка кофе">
+          <div class="form__info"> 
+            <h2 class="form__titles"><span class="form__title">Оставьте заявку сейчас!</span><span class="form__title">Получите пробник кофе - совершенно бесплатно!</span>
+            </h2>
+            <form class="form__send" action="send.php" method="post">
+              <input class="form__phone" type="text" name="phone" placeholder="Ваш номер телефона">
+              <button class="form__buttons" type="submit">Оставить заявку
+              </button>
+            </form>
+            <p class="form__text">Позвоним вам и ответим на все ваши вопросы, поможем выбрать сорт кофе.      </p>
+          </div>
+        </div>
+      </section>
+      <section class="icon">
+        <div class="icon__area">
+          <ul class="icon__list">
+            <li class="icon__item"><img class="icon__picture" src="img/icon_beans.png" alt="Зёрна кофе">
+              <p class="icon__text">Закупаем кофе с плантаций без&nbsp;посредников </p>
+            </li>
+            <li class="icon__item"><img class="icon__picture" src="img/icon_fire.png" alt="Обжарка кофе">
+              <p class="icon__text">Обжариваем зерна на&nbsp;собственном производстве</p>
+            </li>
+            <li class="icon__item"><img class="icon__picture" src="img/icon_box.png" alt="Упаковка кофе">
+              <p class="icon__text">Предлагаем доступные цены за&nbsp;преимум качество</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="act">
+        <div class="act__area">
+          <div class="act__description"> 
+            <h2 class="act__title">Обжариваем и доставляем свежий кофе с&nbsp;2013&nbsp;года</h2>
+            <p class="act__text">За много лет приобрели опыт, стали экспертами производства обжарки кофе и&nbsp;при этом остались людьми, всё это помогает нам производить совершенный кофе для всех наших клиентов.</p>
+            <p class="act__text">Мы проводим контрольные капинги и&nbsp;заключаем контракты на&nbsp;поставки отборного зерна каждый новый урожай.</p>
+            <p class="act__text">Имеем собственное технологичное производство в Санкт-Петербурге, производственная мощность которого 5&nbsp;000&nbsp;кг. в сутки.</p>
+          </div><img class="act__picture" src="img/act.png" alt="Упаковка кофе">
+        </div>
+      </section>
+      <section class="roster">
+        <div class="roster__area">
+          <ul class="roster__list">
+            <li class="roster__text">Закупаем и привозим свежие зерна кофе со&nbsp;всего мира</li>
+            <li class="roster__text">Обжариваем на&nbsp;технологичных ростерах Typhoon</li>
+            <li class="roster__text">Затем осуществляется контроль качества и&nbsp;каппинг каждой партии</li>
+            <li class="roster__text">Далее отправляем свежеобжаренный кофе на фасовку и упаковку</li>
+            <li class="roster__text">После чего готовый продукт передается в&nbsp;отдел доставки</li>
+            <li class="roster__text">Вы получаете поставку свежего кофе во время и&nbsp;без задержек</li>
+          </ul>
+        </div>
+      </section>
+      <section class="black">
+        <div class="black__area">
+          <div class="black__description">
+            <h2 class="black__title">Работаем быстро<br>— ценим ваше время</h2>
+            <p class="black__text">Моментально обрабатываем заявки поступающие с сайта, высылаем оптовый прайс и помогаем определиться с&nbsp;сортом&nbsp;кофе.</p>
+            <p class="black__text">Запускаем вашу партию в производство в течении суток&nbsp;после заказа.</p>
+            <p class="black__text">По готовности сразу передаем в отдел доставки и&nbsp;присылаем&nbsp;вам трек-номер для отслеживания.</p>
+          </div><img class="black__picture" src="img/black_photo.jpg" alt="Фото">
+        </div>
+      </section>
+      <section class="delivery">
+        <div class="delivery__area"> 
+          <div class="delivery__description"> 
+            <h2 class="delivery__title">Оперативная и отлаженная доставка&nbsp;свежего кофе</h2>
+            <p class="delivery__text">Доставляем свежеобжаренный кофе с нашего производства в&nbsp;любую точку России в среднем за 5 дней после заказа. </p>
+            <p class="delivery__text">Логистика по всей России отлажена до мелочей. Мы поможем с выбором транспортной компании, которая доставляет в ваш город.</p>
+            <p class="delivery__text">Для клиентов из Санкт-Петербурга доставляем кофе на автомобилях компании на следующий день после заказа.</p><a class="delivery__track" href="#"><img class="delivery__link" src="img/delivery_truck.png" alt="Ссылка">
+              <p class="delivery__know">Узнать о доставке в мой город</p></a>
+          </div>
+          <div class="delivery__picture"><img class="delivery__img" src="img/delivery_cdek.png" alt="Логотип CDEK"><img class="delivery__img" src="img/delivery_dl.png" alt="Логотип Деловые Линии"><img class="delivery__img" src="img/delivery_pek.png" alt="Логотип ПЭК"><img class="delivery__img" src="img/delivery_bs.png" alt="Логотип Байкал Сервис"><img class="delivery__img" src="img/delivery_glav.png" alt="Логотип GLAV"><img class="delivery__img" src="img/delivery_jda.png" alt="Логотип ЖелдорАльянс"></div>
+        </div>
+      </section>
+      <section class="respect">
+        <div class="respect__area">
+          <h2 class="respect__caption">За вкус и качество кофе отвечаем головой</h2>
+          <p class="respect__disclaimer">Вкус кофе остается не изменным на регулярной основе от&nbsp;партии к партии, благодаря функциональности новейшего и технологичного оборудования на произвосдтве ПКМ.</p>
+          <div class="respect__line">
+            <h3 class="respect__name">Закупаем лучшее&nbsp;сырье</h3>
+            <p class="respect__text">Мы не экономим на сырье, закупаем натуральный кофе с плантаций в странах Эфиопии, Бразилии, Бразилии, Колумбии, Гватемалы, Мексики, Коста-Рики, Гондураса, Эфиопии, Вьетнама, Перу и Сальвадора. </p>
+          </div>
+          <div class="respect__line">
+            <h3 class="respect__name">Осуществляем хранение по мировым стандартам</h3>
+            <p class="respect__text">Непосредственно перед обжаркой кофе хранится на складе зеленого кофе, который соответсвует мировым стандартам. Температура воздуха +15°С при относительной влажности 55-60 г/м³</p>
+          </div>
+          <div class="respect__line">
+            <h3 class="respect__name">Используем лучшие ростеры для обжарки</h3>
+            <p class="respect__text">Мы обжариваем кофе на новейших ростерах “Typhoon” с запатентованной системой обжарки в кипящем слое. Никогда еще обжарка кофе не была такой равномерной, стабильной и чистой!</p>
+          </div>
+          <div class="respect__line">
+            <h3 class="respect__name">Дополнительно очищаем</h3>
+            <p class="respect__text">С помощью дестонера, такого специального аппарата вычленяем из кофе всякие камни и другие инородные элементы, без этого этапа камень может безвозвратно убить кофемолку.</p>
+          </div>
+          <div class="respect__line">
+            <h3 class="respect__name">Упаковываем только проверенный кофе</h3>
+            <p class="respect__text">Ваш кофе фасуется по пакетам из полимерного материала с плоским дном, оснащенных дегазационным клапаном, с замком типа «молния». Фасовка в пакеты по 1 кг и 250 гр.</p>
+          </div>
+          <div class="respect__line">
+            <p class="respect__name">Приглашаем на&nbsp;производство</p>
+            <p class="respect__text">Приглашаем всех клиентов в гости к нам на производство в городе Санкт-Петербург. Мы регулярно проводим дегустацию новых и зарекомендованных сортов кофе свежей обжарки и у вас есть возможность попробовать и открыть для себя новый вкус кофе.</p>
+          </div>
+        </div>
+      </section>
+      <section class="choice">
+        <div class="choice__area">
+          <h2 class="choice__title">На выбор более 30 сортов кофе</h2>
+          <p class="choice__text">Предлагаем ТОП ассортимент: смеси, моносорта и микролоты из Бразилии, Колумбии, Гватемалы, Мексики, Коста-Рики, Гондураса, Эфиопии, Вьетнама, Перу и Сальвадора</p>
+          <ul class="choice__list">
+            <li class="choice__card"> <img class="choice__photo" src="img/choice_pack.png" alt="Пачка кофе">
+              <h3 class="choice__name">Бразилия Суль Де Минас</h3>
+              <p class="choice__description">С нотами арахиса, какао и цедры лимона. По мере остывания напитка добавляются ягодные оттенки.</p>
+              <p class="choice__price">от 480 ₽ / кг.</p>
+            </li>
+            <li class="choice__card"><img class="choice__photo" src="img/choice_pack.png" alt="Пачка кофе">
+              <h3 class="choice__name">Колумбия Эксельсо</h3>
+              <p class="choice__description">С нотами какао, цветов и меда. <br>Легкая кислинка фруктового вина.</p>
+              <p class="choice__price">от 480 ₽ / кг.</p>
+            </li>
+            <li class="choice__card"><img class="choice__photo" src="img/choice_pack.png" alt="Пачка кофе">
+              <h3 class="choice__name">Бон-а-бон</h3>
+              <p class="choice__description">С нотами арахиса, горького шоколада и легкой кислинкой фруктовых вин.</p>
+              <p class="choice__price">от 480 ₽ / кг.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="form">
+        <div class="form__area"><img class="form__image form__image--coffee" src="img/form_coffee.png" alt="Пачка кофе">
+          <div class="form__info"> 
+            <h2 class="form__titles"><span class="form__title">Оставьте заявку сейчас!</span><span class="form__title">Получите оптовый прайс на весь ассортимент.</span>
+            </h2>
+            <form class="form__send" action="send.php" method="post">
+              <input class="form__phone" type="text" name="phone" placeholder="Ваш номер телефона">
+              <button class="form__buttons" type="submit">Оставить заявку
+              </button>
+            </form>
+            <p class="form__text">Позвоним вам и ответим на все ваши вопросы, поможем выбрать сорт кофе.      </p>
+          </div>
+        </div>
+      </section>
+      <section class="review">
+        <div class="review__area">
+          <h2 class="review__title">Что о нас говорят наши&nbsp;клиенты</h2>
+          <div class="review__gallery"><img class="review__left" src="img/review_arrow.png" alt="Стрелочка влево">
+            <div class="review__content">
+              <div class="review__card">
+                <div class="review__image"><img class="review__photo" src="img/review_karina.png" alt="Фото"><img class="review__company" src="img/review_huvitz.png" alt="Huvitz"></div>
+                <div class="review__description">
+                  <h3 class="review__name">Карина</h3>
+                  <p class="review__job">Генеральный директор OOO “Huvitz”</p>
+                  <p class="review__text">Очень удобно, что в наше время стала жизнь проще и есть такие вот компании, как ПКМ. Мы давно мечтали купить на работу кофемашину и пить вкусный кофе, но цены на хорошую очень высоки, а вот взять кофемашину в аренду бесплатно при покупке качественного кофе вполне доступно. Узнала об этой компании от друзей. Они уже около года работают с ними и мы очень довольны обслуживанием. Машины все в идеальном состоянии, работают прекрасно, без нареканий. Машины чистят и проверяют регулярно. Так что у нас голова ни о чем не болит! </p>
+                </div>
+              </div>
+              <div class="review__card">
+                <div class="review__image">
+                  <!--img(src='img/review_photo.jpeg', alt='Фото').review__photo--><img class="review__company" src="img/review_coffee.png" alt="Coffee Like">
+                </div>
+                <div class="review__description">
+                  <h3 class="review__name">Сеть кофеен Coffee Like</h3>
+                  <p class="review__job">Крупнейшая сеть  “кофе с собой” в России</p>
+                  <p class="review__text">Берем в аренду профессиональное кофейное оборудование у “ПКМ” уже долгое время. Довольны как качеством оборудования, так и сервисом компании. Всегда оперативно решают проблемы с ремонтом и обслуживанием, хотя ремонт практически никогда и не требуется, потому, что машины очень надежные. Тот самый случай, когда компания решает проблемы клиента и не создает дополнительных, за что, большое вам спасибо! </p>
+                </div>
+              </div>
+              <div class="review__card">
+                <div class="review__image">
+                  <!--img(src='img/review_photo.jpeg', alt='Фото').review__photo--><img class="review__company" src="img/review_bakery.png" alt="Британские пекарни">
+                </div>
+                <div class="review__description">
+                  <h3 class="review__name">«Британские пекарни»</h3>
+                  <p class="review__job">Известные пекарни в Санкт-Петербурге</p>
+                  <p class="review__text">Заказываем на регулярной основе как простой кофе, так и кофе в чалдах без кофеина, горячий шоколад и много другой вкусной продукции у “ПКМ”. Всем довольны, все вкусно. Классные кофемашинки, выдерживают большой поток без перебоев.Приятно с вами работать, желаем большого роста и процветания! </p>
+                </div>
+              </div>
+              <div class="review__card">
+                <div class="review__image">
+                  <!--img(src='img/review_photo.jpeg', alt='Фото').review__photo--><img class="review__company" src="img/review_varlet.png" alt="Студия красоты Varlet Studio">
+                </div>
+                <div class="review__description">
+                  <h3 class="review__name">Cтудия красоты Varlet Studio</h3>
+                  <p class="review__job">Студия красоты с большим потоком клиентов</p>
+                  <p class="review__text">Пользуемся вашими кофемашинами в салонах нашей студии, очень удобный и оперативный сервис , а наши гости довольны кофейными комплиментами во время маникюра и педикюра.  </p>
+                </div>
+              </div>
+              <div class="review__card">
+                <div class="review__image">
+                  <!--img(src='img/review_photo.jpeg', alt='Фото').review__photo--><img class="review__company" src="img/review_gatchina.png" alt="Комитет по физической культуре и спорту Гатчинского муниципального района.">
+                </div>
+                <div class="review__description">
+                  <h3 class="review__name">Комитет по физической культуре и спорту Гатчинского муниципального района.</h3>
+                  <!--p.review__job Генеральный директор OOO “Huvitz”-->
+                  <p class="review__text">Сотрудничаем с ПКМ при проведении мероприятий в Гатчинском муниципальном районе. Подарочные изделия от ПКМ, а так же организация кофепойнтов на соревнованиях и праздниках выше всяких похвал. Комитет рекомендует выбирать в качестве партнеров компанию ПКМ. </p>
+                </div>
+              </div>
+              <div class="review__card">
+                <div class="review__image">
+                  <!--img(src='img/review_photo.jpeg', alt='Фото').review__photo--><img class="review__company" src="img/review_intra.png" alt="Сервисная Компания Интра">
+                </div>
+                <div class="review__description">
+                  <h3 class="review__name">ООО «Сервисная Компания Интра»</h3>
+                  <p class="review__job">Ведущая российская компания, выполняющая весь комплекс услуг<br>в области безостановочных ремонтов трубопровода.</p>
+                  <p class="review__text">Пользуемся услугами компании ПКМ уже на протяжении более двух лет. Радует организованность и пунктуальность доставок; в случае неисправности кофемашин оперативно предоставляется либо новая техника, либо производится ремонт на месте согласно договору в течение 48 часов без задержек. В нашем офисе работает 5 кофемашин от ПКМ, поэтому так важно, что оборудование полностью обслуживалось предоставляющей компанией от и до. Кофе всегда привозят свежей обжарки, никогда не встречаются пачки полугодовой давности. Спасибо ПКМ за бодрость нашей компании. </p>
+                </div>
+              </div>
+              <div class="review__card">
+                <div class="review__image">
+                  <!--img(src='img/review_photo.jpeg', alt='Фото').review__photo--><img class="review__company" src="img/review_star.png" alt="Звезда Невы">
+                </div>
+                <div class="review__description">
+                  <h3 class="review__name">Звезда Невы</h3>
+                  <!--p.review__job Генеральный директор OOO “Huvitz”-->
+                  <p class="review__text">В первую очередь, хотим сказать, что это вкуснейший и качественный кофе! Всегда очень приятный аромат и яркий вкус, прям как в рекламе. Также, хотим выразить благодарность ребятам за отличный сервис, быстрое обслуживание и удобные кофемашины. Это не идеальное соотношения цены и качества, потому, что уровень качества намного выше цены! Всем рекомендуем.</p>
+                </div>
+              </div>
+            </div>
+            <div class="review__arrow"><img class="review__leftmini" src="img/review_arrowmini.png" alt="Стрелочка влево"><img class="review__rightmini" src="img/review_arrowmini.png" alt="Стрелочка вправо"></div><img class="review__right" src="img/review_arrow.png" alt="Стрелочка влево">
+          </div>
+        </div>
+      </section>
+      <section class="expert">
+        <div class="expert__area"> 
+          <div class="expert__header"> 
+            <h2 class="expert__title">Наши профессионалы сделают&nbsp;всё на высшем уровне</h2>
+            <input class="expert__buttons" tipe="submit" value="История ПКМ">
+          </div>
+          <div class="expert__gallery"><img class="expert__left" src="img/expert_arrow.png" alt="Стрелочка влево">
+            <ul class="expert__list">
+              <li class="expert__card"> <img class="expert__photo" src="img/expert_photo1.jpg" alt="Олег Булгаков">
+                <h3 class="expert__name">Олег Булгаков</h3>
+                <h4 class="expert__job">Менеджер по работе с оптовыми клиентами</h4>
+              </li>
+              <li class="expert__card"> <img class="expert__photo" src="img/expert_photo2.jpg" alt="Оксана Павловна">
+                <h3 class="expert__name">Оксана Павловна</h3>
+                <h4 class="expert__job">Представитель компании в Сочи</h4>
+              </li>
+              <li class="expert__card"> <img class="expert__photo" src="img/expert_photo3.jpg" alt="Виталий Гончаренко">
+                <h3 class="expert__name">Виталий Гончаренко</h3>
+                <h4 class="expert__job">Бариста</h4>
+              </li>
+              <li class="expert__card"> <img class="expert__photo" src="img/expert_photo4.png" alt="Человек Паук">
+                <h3 class="expert__name">Человек Паук </h3>
+                <h4 class="expert__job">Менеджер по работе с проблемными клиентами</h4>
+              </li>
+              <li class="expert__card"> <img class="expert__photo" src="img/expert_photo5.png" alt="Железный Человек">
+                <h3 class="expert__name">Железный Человек </h3>
+                <h4 class="expert__job">Представитель компании Марвел</h4>
+              </li>
+              <li class="expert__card"> <img class="expert__photo" src="img/expert_photo6.png" alt="Енот Ракета">
+                <h3 class="expert__name">Енот Ракета </h3>
+                <h4 class="expert__job">Бариста</h4>
+              </li>
+            </ul><img class="expert__right" src="img/expert_arrow.png" alt="Стрелочка влево">
+          </div>
+          <input class="expert__buttons_mini" tipe="submit" value="История ПКМ">
+        </div>
+      </section>
+      <section class="miniform">
+        <div class="miniform__area">
+          <h2 class="miniform__title">Подписывайтесь <br/>на новости и акции</h2>
+          <form class="miniform__send" action="send.php" method="post">
+            <input class="miniform__email" type="text" name="phone" placeholder="Введите ваш email">
+            <input class="miniform__buttons" type="submit" value="Подписаться">
+          </form>
+        </div>
+      </section>
+      <section class="access">
+        <div class="access__area"> 
+          <h2 class="access__title">доступная цена на кофе свежей обжарки</h2>
+          <p class="access__text">Кофе собирается на плантациях и проходит через множество этапов прежде чем попасть в вашу кофемашину. </p>
+          <p class="access__text">Наш конроль качества зерна начинается с момента сбора урожая и заканчивается приготовлением первой чашки кофе для каждой партии. </p>
+        </div>
+      </section>
+      <section class="price">
+        <div class="price__area"> 
+          <div class="price__card">
+            <div class="price__kilo"> 
+              <h2 class="price__title">от 10 кг.</h2>
+              <p class="price__text">Минимальная партия оптового заказа </p>
+            </div>
+            <div class="price__rub">
+              <h2 class="price__title">от 480 ₽</h2>
+              <p class="price__text">Стоимость за 1 кг. кофе свежей обжарки</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="form">
+        <div class="form__area"><img class="form__image form__image--cap" src="img/form_cap.png" alt="Пачка кофе">
+          <div class="form__info"> 
+            <h2 class="form__titles form__titles--cap"><span class="form__title">Делаем кофе,</span><span class="form__title">который пьем сами!</span>
+            </h2>
+            <h3 class="form__subtitles">Оставьте заявку сейчас! <br/>Получите каталог сортов кофе  с подробным описанием и оптовыми ценами!</h3>
+            <form class="form__send" action="send.php" method="post">
+              <input class="form__phone" type="text" name="phone" placeholder="Ваш номер телефона">
+              <button class="form__buttons" type="submit">Оставить заявку
+              </button>
+            </form>
+            <p class="form__text">Позвоним вам и ответим на все ваши вопросы, поможем выбрать сорт кофе.      </p>
+          </div>
+        </div>
+      </section>
+      <section class="footer">
+        <div class="footer__area">
+          <div class="footer__privacy"><img class="footer__logo" src="img/logo.svg" alt="Логотип">
+            <p class="footer__text">Использование любых материалов с этого сайта возможно только после письменного согласия владельца авторских прав</p>
+          </div>
+          <div class="footer__menu">
+            <h3 class="footer__title">Мы предлагаем
+              <div class="footer__block">
+                <ul class="footer__list">
+                  <li class="footer__item"><a class="footer__link" href="#">Кофе оптом</a></li>
+                  <li class="footer__item"><a class="footer__link" href="#">White Label</a></li>
+                  <li class="footer__item"><a class="footer__link" href="#">Бесплатная кофемашина</a></li>
+                </ul>
+              </div>
+            </h3>
+            <h3 class="footer__title">Помощь
+              <div class="footer__block">
+                <ul class="footer__list">
+                  <li class="footer__item"><a class="footer__link" href="#">Частые вопросы</a></li>
+                  <li class="footer__item"><a class="footer__link" href="#">Реквизиты</a></li>
+                  <li class="footer__item"><a class="footer__link" href="#">О компании ПКМ</a></li>
+                </ul>
+              </div>
+            </h3>
+          </div>
+            <div class="contact footer__contact"> <a class="contact__tel" href="tel:+78126034911">+7 (812) 603 49 11 </a>
+              <div class="contact__social">
+                <div class="contact__icon"><svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_182_118)">
+<path d="M16.8475 22.6505L16.5167 27.3039C16.99 27.3039 17.195 27.1005 17.4408 26.8564L19.66 24.7355L24.2583 28.103C25.1017 28.573 25.6958 28.3255 25.9233 27.3272L28.9417 13.1839L28.9425 13.183C29.21 11.9364 28.4917 11.4489 27.67 11.7547L9.92833 18.5472C8.7175 19.0172 8.73583 19.6922 9.7225 19.998L14.2583 21.4089L24.7942 14.8164C25.29 14.488 25.7408 14.6697 25.37 14.998L16.8475 22.6505Z"/>
+</g>
+<defs>
+<clipPath id="clip0_182_118">
+<rect width="20" height="20" transform="translate(9 10)"/>
+</clipPath>
+</defs>
+</svg>
+
+                </div>
+                <div class="contact__icon"><svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_182_122)">
+<path d="M20.0033 14.8652C17.1674 14.8652 14.8716 17.1636 14.8716 19.9969C14.8716 22.8327 17.1699 25.1286 20.0033 25.1286C22.8391 25.1286 25.1349 22.8302 25.1349 19.9969C25.1349 17.1611 22.8366 14.8652 20.0033 14.8652ZM20.0033 23.3277C18.1624 23.3277 16.6724 21.8369 16.6724 19.9969C16.6724 18.1569 18.1633 16.6661 20.0033 16.6661C21.8433 16.6661 23.3341 18.1569 23.3341 19.9969C23.3349 21.8369 21.8441 23.3277 20.0033 23.3277Z"/>
+<path d="M24.1233 10.0638C22.2833 9.97797 17.7258 9.98213 15.8841 10.0638C14.2658 10.1396 12.8383 10.5305 11.6875 11.6813C9.76414 13.6046 10.01 16.1963 10.01 19.9971C10.01 23.8871 9.79331 26.4188 11.6875 28.313C13.6183 30.243 16.2475 29.9905 20.0033 29.9905C23.8566 29.9905 25.1866 29.993 26.5491 29.4655C28.4016 28.7463 29.8 27.0905 29.9366 24.1163C30.0233 22.2755 30.0183 17.7188 29.9366 15.8771C29.7716 12.3663 27.8875 10.2371 24.1233 10.0638ZM27.0358 27.0405C25.775 28.3013 24.0258 28.1888 19.9791 28.1888C15.8125 28.1888 14.1416 28.2505 12.9225 27.028C11.5183 25.6305 11.7725 23.3863 11.7725 19.9838C11.7725 15.3796 11.3 12.0638 15.9208 11.8271C16.9825 11.7896 17.295 11.7771 19.9675 11.7771L20.005 11.8021C24.4458 11.8021 27.93 11.3371 28.1391 15.9571C28.1866 17.0113 28.1975 17.328 28.1975 19.9963C28.1966 24.1146 28.275 25.7955 27.0358 27.0405Z"/>
+<path d="M25.3383 15.8622C26.0006 15.8622 26.5375 15.3253 26.5375 14.663C26.5375 14.0008 26.0006 13.4639 25.3383 13.4639C24.676 13.4639 24.1392 14.0008 24.1392 14.663C24.1392 15.3253 24.676 15.8622 25.3383 15.8622Z"/>
+</g>
+<defs>
+<clipPath id="clip0_182_122">
+<rect width="20" height="20" transform="translate(10 10)"/>
+</clipPath>
+</defs>
+</svg>
+
+                </div>
+                <div class="contact__icon"><svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_182_128)">
+<path d="M26.5958 20.857C26.2725 20.4487 26.365 20.267 26.5958 19.902C26.6 19.8978 29.2692 16.2095 29.5442 14.9587L29.5458 14.9578C29.6825 14.502 29.5458 14.167 28.885 14.167H26.6983C26.1417 14.167 25.885 14.4545 25.7475 14.7762C25.7475 14.7762 24.6342 17.4412 23.0592 19.1687C22.5508 19.6678 22.3158 19.8278 22.0383 19.8278C21.9017 19.8278 21.6892 19.6678 21.6892 19.212V14.9578C21.6892 14.4112 21.5333 14.167 21.0725 14.167H17.6342C17.285 14.167 17.0775 14.422 17.0775 14.6595C17.0775 15.1778 17.865 15.297 17.9467 16.7553V19.9195C17.9467 20.6128 17.8208 20.7403 17.5417 20.7403C16.7983 20.7403 14.9942 18.0645 13.925 15.002C13.7092 14.4078 13.4983 14.1678 12.9375 14.1678H10.75C10.1258 14.1678 10 14.4553 10 14.777C10 15.3453 10.7433 18.1712 13.4567 21.9045C15.265 24.4528 17.8117 25.8337 20.1283 25.8337C21.5208 25.8337 21.6908 25.527 21.6908 24.9995C21.6908 22.5645 21.565 22.3345 22.2625 22.3345C22.5858 22.3345 23.1425 22.4945 24.4425 23.7237C25.9283 25.1812 26.1725 25.8337 27.0042 25.8337H29.1908C29.8142 25.8337 30.13 25.527 29.9483 24.922C29.5325 23.6495 26.7225 21.032 26.5958 20.857Z"/>
+</g>
+<defs>
+<clipPath id="clip0_182_128">
+<rect width="20" height="20" transform="translate(10 10)"/>
+</clipPath>
+</defs>
+</svg>
+
+                </div>
+              </div>
+              <ul class="contact__list">
+                <li class="contact__item"> <a class="contact__mail" href="mailto:info@pcmonline.ru"> info@pcmonline.ru</a></li>
+                <li class="contact__item"> 
+                  <p class="contact__address">Санкт-Петербург, наб. Обводного канала д. 24</p>
+                </li>
+                <li class="contact__item"> <a class="contact__link" href="#">Смотреть на карте</a></li>
+              </ul>
+            </div>
+        </div>
+        <div class="footer__policy"> <a class="footer__under" href="#">© 2013-2021 “ПКМ”</a><a class="footer__under" href="#"> Политика конфиденциальности</a></div>
+      </section>
+      <section class="popup">
+        <form class="popup__form" action="send.php" method="post"><img class="popup__close" src="img/cross.svg" alt="Х">
+          <h2 class="popup__title">Оставьте заявку и получите оптовый прайс на весь ассортимент кофе</h2>
+          <p class="popup__text">Мы позвоним вам, вышлем оптовый прайс и ответим на все вопросы.</p>
+          <input class="popup__input" type="text" name="phone" placeholder="Ваш номер телефона">
+          <input class="popup__input" type="text" name="email" placeholder="Ваш Email">
+          <button class="popup__button" type="submit">Оставить заявку</button>
+        </form>
+        <div class="popup__ask"></div>
+      </section>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
